@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Com Com. Helados - Tienda Online</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Pop-up Modal -->
+    <div id="popup" class="popup-overlay">
+        <div class="popup-content">
+            <h2>¡Bienvenidos a Com Com. Helados!</h2>
+            <p>Disfruta de los mejores helados de la ciudad 🍦</p>
+            <button id="close-popup" class="btn-primary">Cerrar</button>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="modern-header">
+        <div class="logo">🍦 Com Com. Helados</div>
+        <nav class="modern-nav">
+            <ul>
+                <li><a href="#catalog">Catálogo</a></li>
+                <li><a href="#cart">Carrito</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>¡Deléitate con nuestros sabores únicos! 🍨</h1>
+        <p>Helados artesanales para cada ocasión.</p>
+        <a href="#catalog" class="btn-primary">Explorar</a>
+    </section>
+
+    <!-- Product Catalog -->
+    <section id="catalog" class="catalog modern-section">
+        <h2>Nuestros Productos</h2>
+        <div class="product-list">
+            <!-- Products will be dynamically added using JavaScript -->
+        </div>
+    </section>
+
+    <!-- Shopping Cart -->
+    <section id="cart" class="cart modern-section">
+        <h2>Tu Carrito</h2>
+        <div class="cart-items">
+            <!-- Cart items will be dynamically added using JavaScript -->
+        </div>
+        <p class="total">Total: $<span id="total-price">0.00</span></p>
+        <button id="checkout" class="btn-primary">Finalizar Pedido</button>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact modern-section">
+        <h2>Contáctanos</h2>
+        <div class="contact-info">
+            <p><strong>📍 Dirección:</strong> Presidente Roca 2873, Rosario, Argentina</p>
+            <p><strong>📞 WhatsApp:</strong> <a href="https://wa.me/3413801023">3413801023</a></p>
+            <p><strong>✉️ Email:</strong> <a href="mailto:facurcrios.fr@gmail.com">facurcrios.fr@gmail.com</a></p>
+            <p><strong>⏰ Horario:</strong> Todos los días de 15:00 a 00:00</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="modern-footer">
+        <p>© 2024 Com Com. Helados. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
